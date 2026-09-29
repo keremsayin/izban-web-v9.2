@@ -1,0 +1,289 @@
+[
+  {
+    "Boylam": "26.9669",
+    "IstasyonId": 1,
+    "Enlem": "38.7889",
+    "IstasyonSirasi": 38,
+    "IstasyonAdi": "Aliağa"
+  },
+  {
+    "Boylam": "26.9603",
+    "IstasyonId": 2,
+    "Enlem": "38.7497",
+    "IstasyonSirasi": 37,
+    "IstasyonAdi": "Biçerova"
+  },
+  {
+    "Boylam": "27.0175",
+    "IstasyonId": 3,
+    "Enlem": "38.69",
+    "IstasyonSirasi": 36,
+    "IstasyonAdi": "Hatundere"
+  },
+  {
+    "Boylam": "27.0767",
+    "IstasyonId": 4,
+    "Enlem": "38.6033",
+    "IstasyonSirasi": 35,
+    "IstasyonAdi": "Menemen"
+  },
+  {
+    "Boylam": "27.0444",
+    "IstasyonId": 5,
+    "Enlem": "38.5606",
+    "IstasyonSirasi": 34,
+    "IstasyonAdi": "Egekent 2"
+  },
+  {
+    "Boylam": "27.0361",
+    "IstasyonId": 6,
+    "Enlem": "38.5486",
+    "IstasyonSirasi": 33,
+    "IstasyonAdi": "Ulukent"
+  },
+  {
+    "Boylam": "27.0461",
+    "IstasyonId": 7,
+    "Enlem": "38.5072",
+    "IstasyonSirasi": 32,
+    "IstasyonAdi": "Egekent"
+  },
+  {
+    "Boylam": "27.0533",
+    "IstasyonId": 8,
+    "Enlem": "38.4989",
+    "IstasyonSirasi": 31,
+    "IstasyonAdi": "Atasanayi"
+  },
+  {
+    "Boylam": "27.0631",
+    "IstasyonId": 9,
+    "Enlem": "38.4919",
+    "IstasyonSirasi": 30,
+    "IstasyonAdi": "Çiğli"
+  },
+  {
+    "Boylam": "27.0844",
+    "IstasyonId": 10,
+    "Enlem": "38.4806",
+    "IstasyonSirasi": 29,
+    "IstasyonAdi": "Mavişehir"
+  },
+  {
+    "Boylam": "27.0906",
+    "IstasyonId": 11,
+    "Enlem": "38.4742",
+    "IstasyonSirasi": 28,
+    "IstasyonAdi": "Şemikler"
+  },
+  {
+    "Boylam": "27.0967",
+    "IstasyonId": 13,
+    "Enlem": "38.4678",
+    "IstasyonSirasi": 27,
+    "IstasyonAdi": "Demirköprü"
+  },
+  {
+    "Boylam": "27.1053",
+    "IstasyonId": 14,
+    "Enlem": "38.4592",
+    "IstasyonSirasi": 26,
+    "IstasyonAdi": "Nergiz"
+  },
+  {
+    "Boylam": "27.1144",
+    "IstasyonId": 15,
+    "Enlem": "38.4578",
+    "IstasyonSirasi": 25,
+    "IstasyonAdi": "Karşıyaka"
+  },
+  {
+    "Boylam": "27.1217",
+    "IstasyonId": 16,
+    "Enlem": "38.4608",
+    "IstasyonSirasi": 24,
+    "IstasyonAdi": "Alaybey"
+  },
+  {
+    "Boylam": "27.1283",
+    "IstasyonId": 17,
+    "Enlem": "38.4647",
+    "IstasyonSirasi": 23,
+    "IstasyonAdi": "Naldöken"
+  },
+  {
+    "Boylam": "27.1497",
+    "IstasyonId": 18,
+    "Enlem": "38.4669",
+    "IstasyonSirasi": 22,
+    "IstasyonAdi": "Turan"
+  },
+  {
+    "Boylam": "27.1644",
+    "IstasyonId": 19,
+    "Enlem": "38.4639",
+    "IstasyonSirasi": 21,
+    "IstasyonAdi": "Bayraklı"
+  },
+  {
+    "Boylam": "27.1722",
+    "IstasyonId": 20,
+    "Enlem": "38.4508",
+    "IstasyonSirasi": 20,
+    "IstasyonAdi": "Salhane"
+  },
+  {
+    "Boylam": "27.1686",
+    "IstasyonId": 21,
+    "Enlem": "38.4348",
+    "IstasyonSirasi": 19,
+    "IstasyonAdi": "Halkapınar"
+  },
+  {
+    "Boylam": "27.1558",
+    "IstasyonId": 23,
+    "Enlem": "38.4222",
+    "IstasyonSirasi": 16,
+    "IstasyonAdi": "Kemer"
+  },
+  {
+    "Boylam": "27.1469",
+    "IstasyonId": 24,
+    "Enlem": "38.3933",
+    "IstasyonSirasi": 15,
+    "IstasyonAdi": "Şirinyer"
+  },
+  {
+    "Boylam": "27.1475",
+    "IstasyonId": 25,
+    "Enlem": "38.3842",
+    "IstasyonSirasi": 14,
+    "IstasyonAdi": "Koşu"
+  },
+  {
+    "Boylam": "27.1417",
+    "IstasyonId": 26,
+    "Enlem": "38.3689",
+    "IstasyonSirasi": 13,
+    "IstasyonAdi": "İnkılap"
+  },
+  {
+    "Boylam": "27.1367",
+    "IstasyonId": 27,
+    "Enlem": "38.3569",
+    "IstasyonSirasi": 12,
+    "IstasyonAdi": "Semt Garajı"
+  },
+  {
+    "Boylam": "27.1367",
+    "IstasyonId": 28,
+    "Enlem": "38.3361",
+    "IstasyonSirasi": 11,
+    "IstasyonAdi": "Esbaş"
+  },
+  {
+    "Boylam": "27.14",
+    "IstasyonId": 29,
+    "Enlem": "38.3264",
+    "IstasyonSirasi": 10,
+    "IstasyonAdi": "Gaziemir"
+  },
+  {
+    "Boylam": "27.1447",
+    "IstasyonId": 30,
+    "Enlem": "38.3119",
+    "IstasyonSirasi": 9,
+    "IstasyonAdi": "Sarnıç"
+  },
+  {
+    "Boylam": "27.1481",
+    "IstasyonId": 31,
+    "Enlem": "38.2911",
+    "IstasyonSirasi": 8,
+    "IstasyonAdi": "Adnan Menderes Havalimanı"
+  },
+  {
+    "Boylam": "27.1631",
+    "IstasyonId": 32,
+    "Enlem": "38.2625",
+    "IstasyonSirasi": 7,
+    "IstasyonAdi": "Cumaovası"
+  },
+  {
+    "Boylam": "27.1479",
+    "IstasyonId": 34,
+    "Enlem": "38.4395",
+    "IstasyonSirasi": 18,
+    "IstasyonAdi": "Alsancak"
+  },
+  {
+    "Boylam": "27.1544",
+    "IstasyonId": 35,
+    "Enlem": "38.4255",
+    "IstasyonSirasi": 17,
+    "IstasyonAdi": "Hilal"
+  },
+  {
+    "Boylam": "27.1681",
+    "IstasyonId": 38,
+    "Enlem": "38.2031",
+    "IstasyonSirasi": 6,
+    "IstasyonAdi": "Develi"
+  },
+  {
+    "Boylam": "27.1856",
+    "IstasyonId": 40,
+    "Enlem": "38.1811",
+    "IstasyonSirasi": 5,
+    "IstasyonAdi": "Tekeli"
+  },
+  {
+    "Boylam": "27.2397",
+    "IstasyonId": 42,
+    "Enlem": "38.1975",
+    "IstasyonSirasi": 4,
+    "IstasyonAdi": "Pancar"
+  },
+  {
+    "Boylam": "27.3089",
+    "IstasyonId": 43,
+    "Enlem": "38.2094",
+    "IstasyonSirasi": 3,
+    "IstasyonAdi": "Kuşçuburun"
+  },
+  {
+    "Boylam": "27.3472",
+    "IstasyonId": 44,
+    "Enlem": "38.1697",
+    "IstasyonSirasi": 2,
+    "IstasyonAdi": "Torbalı"
+  },
+  {
+    "Boylam": "27.3613",
+    "IstasyonId": 45,
+    "Enlem": "38.1472",
+    "IstasyonSirasi": 1,
+    "IstasyonAdi": "Tepeköy"
+  },
+  {
+    "Boylam": "27.4008",
+    "IstasyonId": 47,
+    "Enlem": "38.0846",
+    "IstasyonSirasi": 0,
+    "IstasyonAdi": "Sağlık"
+  },
+  {
+    "Boylam": "27.3731",
+    "IstasyonId": 48,
+    "Enlem": "37.9509",
+    "IstasyonSirasi": -2,
+    "IstasyonAdi": "Selçuk"
+  },
+  {
+    "Boylam": "27.4331",
+    "IstasyonId": 50,
+    "Enlem": "38.0306",
+    "IstasyonSirasi": -1,
+    "IstasyonAdi": "Belevi"
+  }
+]

@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>İZBAN | Hat Haritası ve Seferler</title>
+  <meta name="description" content="İZBAN istasyon haritası, tüm gün planlı seferler ve istasyonlar arası sefer arama.">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">İZ</div>
+      <div>
+        <div class="brand-name">İZBAN</div>
+        <div class="brand-sub">Hat haritası · sefer saatleri</div>
+      </div>
+    </div>
+    <div class="live-legend" title="Canlı veri entegrasyonu sonraki aşamada eklenecek">
+      <span class="dot planned"></span> Planlandı
+      <span class="dot live"></span> Canlı <span class="muted">(yakında)</span>
+    </div>
+  </header>
+
+  <nav class="tabs" aria-label="Ana bölümler">
+    <button class="tab active" data-tab="map">Harita & İstasyonlar</button>
+    <button class="tab" data-tab="route">Nereden → Nereye?</button>
+  </nav>
+
+  <main>
+    <section id="tab-map" class="tab-panel active">
+      <div class="map-layout">
+        <div class="map-card">
+          <div id="map" aria-label="İZBAN güzergah haritası"></div>
+          <div class="map-hint">Bir istasyona dokunarak günün tüm planlanan seferlerini saat sırasıyla aç.</div>
+        </div>
+        <aside class="side-card" id="station-panel">
+          <div class="empty-state">
+            <div class="empty-icon">🚆</div>
+            <h2>Bir istasyon seç</h2>
+            <p>Haritadaki istasyonlardan birine tıkladığında, o istasyondan gün boyunca geçen planlı seferleri saat sırasıyla görebilirsin.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="tab-route" class="tab-panel">
+      <div class="route-page">
+        <div class="route-hero">
+          <span class="eyebrow">SEFER ARAMA</span>
+          <h1>Nereden nereye gideceksin?</h1>
+          <p>İki istasyon seç; seçtiğin güne ait tüm planlanan seferleri, varış saatini ve trenin son istasyonunu birlikte gösterelim.</p>
+        </div>
+        <div class="route-form-card">
+          <div class="field">
+            <label for="from">Nereden</label>
+            <select id="from"></select>
+          </div>
+          <button class="swap" id="swap" title="İstasyonları değiştir" aria-label="İstasyonları değiştir">↕</button>
+          <div class="field">
+            <label for="to">Nereye</label>
+            <select id="to"></select>
+          </div>
+          <div class="field date-field">
+            <label for="travel-date">Tarih</label>
+            <input id="travel-date" type="date">
+            <span id="day-type" class="day-type"></span>
+          </div>
+          <button class="primary" id="search">Seferleri Bul</button>
+        </div>
+        <div id="route-result" class="route-result"></div>
+      </div>
+    </section>
+  </main>
+
+  <template id="schedule-row-template">
+    <div class="schedule-row">
+      <div class="time-block">
+        <div class="departure"></div>
+        <div class="arrival"></div>
+      </div>
+      <div class="journey-line"><span></span></div>
+      <div class="status-block">
+        <span class="status planned-status">PLANLANDI</span>
+        <div class="duration"></div>
+      </div>
+    </div>
+  </template>
+
+  <footer class="footer">
+    <span>Veri: İzmir Büyükşehir Belediyesi Açık Veri / İZBAN web servisleri · Harita: OpenStreetMap · İZBAN ray güzergâhı</span>
+    <span>Canlı veri: sonraki aşamada İZBAN mobil uygulamasının ağ trafiği incelenerek eklenecek.</span>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="/app.js"></script>
+</body>
+</html>
