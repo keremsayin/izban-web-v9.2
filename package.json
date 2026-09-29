@@ -1,0 +1,15 @@
+{
+  "name": "izban-web",
+  "version": "0.4.0",
+  "private": true,
+  "description": "İZBAN güzergâhı, istasyonlar, tarih bazlı seferler ve rota arama",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.16"
+  }
+}
